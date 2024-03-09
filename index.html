@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<body style="background-color:rgb(218, 210, 166);"></body>
+		<style>
+			
+			.Div1 {
+  				border: 2px outset rgb(0, 0, 0);
+				 background-color: rgb(255, 255, 253);
+ 			    text-align: center;
+			}
+			h1 {text-align: center;}
+			h2 {text-align: center;}
+			h3 {text-align: center;}
+			p {text-align: center;}
+			div {text-align: center;}
+		</style>
+		&nbsp
+		<div class="Div1">
+		<h1>HELLO & WELCOME!!!</h1>
+		&nbsp
+		
+		<h2 id="name"></p>
+		<h3 id="age"></p>
+		<h3 id="strand"></p>
+		</div>
+		<script>
+			function test() {
+				return "name";
+				return "age"
+				return "strand"
+			}
+			let name = prompt("Enter your name:");
+			let age = prompt("Enter your age:");
+			let strand = prompt("Enter your strand:");
+
+			document.getElementById("name").innerHTML = name;
+			document.getElementById("age").innerHTML = "You are " + age + " years old";
+			document.getElementById("strand").innerHTML = "From " + strand + " strand";
+
+
+		</script>
+	</body>
+</html>
+
